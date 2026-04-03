@@ -8,7 +8,7 @@ app = FastAPI()
 
 
 # ✅ Initialize OCR model
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['en'],gpu=False)
 
 
 
